@@ -83,11 +83,11 @@ author:
   name             : "Gayrat Tangriberganov"
   avatar           : "my_photo.jpg"
   bio              : "Research Scientist"
-  location         : "South Korea, Daejeon"
+  location         : "https://www.google.com/maps/place/Konyang+University+Hospital/@36.3067823,127.3422503,15z/data=!4m5!3m4!1s0x0:0xb1d86b8ff6c7a9f0!8m2!3d36.3067823!4d127.3422503"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : ""
+  pubmed           : 
+  googlescholar    : 
+  email            : "ai.devveloper@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
