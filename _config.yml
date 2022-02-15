@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Harry_KIT"
 title_separator          : "-"
 name                     : &name "Gayrat Tangriberganov"
-description              : &description "personal description"
+description              : &description "Research Scientist, Konyang HealthCare Data Science Center"
 url                      : https://harry-kit.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : 
@@ -77,7 +77,9 @@ author:
   avatar           : "my_photo.jpg"
   bio              : "Research Scientist"
   location         : "South Korea, Daejeon"
-  employer         :
+  location_map     : "https://www.google.com/maps/place/Konyang+University+Hospital/@36.3067823,127.3422503,15z/data=!4m5!3m4!1s0x0:0xb1d86b8ff6c7a9f0!8m2!3d36.3067823!4d127.3422503"
+  employer         : "Konyang Hospital"
+  employer_link    : "https://www.kyuh.ac.kr/hdc/"
   pubmed           : 
   googlescholar    : 
   email            : "ai.devveloper@gmail.com"
