@@ -1,20 +1,20 @@
 ---
 title: "Activity-2"
-excerpt: "<b>Polyps semantic segmentation using Yolact model</b> <br/><br/><img src='/images/yolact_highlight_img.jpg'>"
+excerpt: "<b>Polyps segmentation using Yolact model</b> <br/><br/><img src='/images/yolact_highlight_img.jpg'>"
 collection: portfolio
 ---
 <p>
-	<b>Purpose:</b> Deep learning-based applications are commonly used in the medical sphere, especially image classification; thus, deep learning has great potential to impact image-based specialties such as radiology. Deep learning may have the potential to address existing issues in sinus radiography. Because an imbalanced dataset causes problems in radiographic classification performance, generative adversarial network (GAN) usage is proposed to improve deep learning performance by generating part of the insufficient data. We aimed to evaluate the diagnostic performance of supervised learning using GANs for Waters’ view radiographs.
-</p><br/>
-<img src='/images/yolact_example_fin.png'><br/>
+	Colorectal cancer from the appearance of polyps that can be malignant is one of the most fatal diseases in the world. To find these polyps in patients, colonoscopy is performed, which is a very efficient technique in this case. Clinically, detecting and segmenting these polyps in order to determine their presence or not is a very difficult process that requires a lot of time and experience from professionals, depending directly on these factors. Therefore, it becomes increasingly important to have an automatic, effective and reliable method of detecting and segmenting these polyps, making diagnoses faster and more accurate. In order to assist in the development of a method, we utilized Yolact model (You only look at the coefficients) which is a more optimized version for instance segmentation, which has secured a good reputation for its speed and accuracy trade-offs. It is able to achieve 29.8 mean Average Precision (mAP) on MS COCO at 33 frames per second, much faster than the other competitive frameworks.
+</p>
+<img src='/images/yolact_example_fin.png'>
 <p>
-	<b>Approach:</b> Three specialists assessed images of Waters’ view radiographs and categorized them into four classes to prepare input datasets. Subsequently, the diagnosed images were resized to 1024 × 1024 pixels through image processing. Next, GANs were used to provide sufficient images for each class. GAN implementations were performed twice sequentially to prepare a large amount of valuable synthetic data. An estimation for the performance of supervised learning models with imbalanced and balanced datasets were demonstrated.
-</p><br/>
+	YOLACT uses ResNet-101 with FPN (Feature Pyramid Networks)that helps in creating pyramids of feature maps of high-resolution images rather than the conventional Pyramid of images approach, therefore reducing the time and requirements of computational capabilities. In addition, Yolact is suitable for "real time" applications. 
+</p>
 <img src='/images/squirrel_fin.gif'><br/>
 <p>
-	<b>Results:</b> Without synthetic data, the diagnostic performance of supervised learning models was insignificant because of an imbalanced dataset. After a radiologic technologist deleted awkward images from the generated images, we observed a diagnostic improvement to 82% accuracy with the first balanced dataset for each class and 91% accuracy with the second balanced dataset of generated images.
+	We also used Yolact for downstream task like polyp segmentation. The pre-trained model can be applicable for polyp video datasets.  
 </p>
 <img src='/images/polyp-example_77.jpg'><br/>
 <p>
-	<b>Conclusions:</b> We expect that as the number of datasets with generated images using GANs increases, the supervised learning performance for diagnosing maxillary sinusitis on Waters’ view radiographs will improve.
+	In <b>conclusions</b>, Our experiment result can serve as additional helper for colonoscopists while diagnosing polyps in patients
 </p>
