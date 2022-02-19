@@ -70,9 +70,9 @@
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}
-      <!-- {% if author.curriculumvitae%}
+      {% if author.curriculumvitae%}
         <li><a href="{{author.curriculumvitae | prepend: "/files/"}}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a></li>
-      {% endif %} -->
+      {% endif %}
       {% if author.lastfm %}
         <li><a href="https://lastfm.com/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i> Last.fm</a></li>
       {% endif %}
