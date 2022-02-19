@@ -4,16 +4,17 @@ excerpt: "<b>Tackling PNS data imbalance problem using GAN architectures</b> <br
 collection: portfolio
 ---
 <p>
-	<b>Purpose:</b> Deep learning-based applications are commonly used in the medical sphere, especially image classification; thus, deep learning has great potential to impact image-based specialties such as radiology. Deep learning may have the potential to address existing issues in sinus radiography. Because an imbalanced dataset causes problems in radiographic classification performance, generative adversarial network (GAN) usage is proposed to improve deep learning performance by generating part of the insufficient data. We aimed to evaluate the diagnostic performance of supervised learning using GANs for Waters’ view radiographs.
-</p><br/>
-<img src='/images/PGAN_over_PNS_3.jpg'><br/>
-<p>
-	<b>Approach:</b> Three specialists assessed images of Waters’ view radiographs and categorized them into four classes to prepare input datasets. Subsequently, the diagnosed images were resized to 1024 × 1024 pixels through image processing. Next, GANs were used to provide sufficient images for each class. GAN implementations were performed twice sequentially to prepare a large amount of valuable synthetic data. An estimation for the performance of supervised learning models with imbalanced and balanced datasets were demonstrated.
-</p><br/>
-<img src='/images/pns_fake_images.jpg'><br/>
-<p>
-	<b>Results:</b> Without synthetic data, the diagnostic performance of supervised learning models was insignificant because of an imbalanced dataset. After a radiologic technologist deleted awkward images from the generated images, we observed a diagnostic improvement to 82% accuracy with the first balanced dataset for each class and 91% accuracy with the second balanced dataset of generated images.
+	<b>Purpose:</b> Deep learning-based applications are commonly used in the medical sphere, especially image classification; thus, deep learning has great potential to impact image-based specialties such as radiology. Deep learning may have the potential to address existing issues in sinus radiography. Because an imbalanced dataset causes problems in radiographic classification performance, Generative Adversarial Network (GAN) usage is proposed to improve deep learning performance by generating part of the insufficient data.
+
 </p>
 <p>
-	<b>Conclusions:</b> We expect that as the number of datasets with generated images using GANs increases, the supervised learning performance for diagnosing maxillary sinusitis on Waters’ view radiographs will improve.
+	<b>GAN</b> is a model for image generation to reconstruct a similar image to input image. GANs working structure is that two networks compete with each other. The discriminator network competes with the generator and tries to distinguish between the realistic fake images coming from the generator, which samples z vector from a latent space to generate, and the real samples. GANs learn to create realistic images that are similar to the input images but not present in the input dataset. Following the tic-toe game approach, the discriminator and generator are enhancing their abilities simultaneously. This is because generator enforces to learn how to generate realistic images according to discriminator’s level of distinguishing power that is arising empirically during the train.
+</p>
+<img src='/images/PGAN_over_PNS_3.jpg'>
+<p>
+	<b>Approach:</b> Three specialists assessed images of Waters’ view radiographs and categorized them into four classes to prepare input datasets. Subsequently, the diagnosed images were resized to 1024 × 1024 pixels through image processing. Next, GANs were used to provide sufficient images for each class. PGAN is utilized for our experiment. GAN implementations were performed twice sequentially to prepare a large amount of valuable synthetic data. An estimation for the performance of supervised learning models with imbalanced and balanced datasets were demonstrated.
+</p>
+<img src='/images/pns_fake_images.jpg'>
+<p>
+	<b>Results:</b> With the fake images, we have done PNS image classification. The performance in which the balanced dataset trained surpasses the performance with imbalanced dataset.   
 </p>
