@@ -11,49 +11,29 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 9999999999999999999999999999999999999999999
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in Telecommunication Engineering - Tashkent University of Information Technologies in Uzbekistan (2018-2020)
+* M.Sc. in Telecommunication Engineering - Tashkent University of Information Technologies in Uzbekistan (2015-2017)
+* M.Sc. in Software Engineering - Kumoh National Institute of Technology in South Korea, Gumi (2018-2020)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2017- Aug 2018: Assistant Teacher
+  * Subject: Telecommunication Networks
+  * Duties included: laboratory and practices with students
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Aug 2020 - present: Research Scientist
+  * Subject: Medical image classification, Object detection
+  * Duties included: Image-processing, writing a paper 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep Learning
+  * Pytorch
+  * OpenCV
+* Web development
+  * Django
+  * Postgresql
+* ETL development
+  * Pandas 
+  * Postgresql
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
