@@ -1,19 +1,26 @@
 ---
 title: "Activity-3"
-excerpt: "<b>The Integration of Self-Supervised Approach-Based Pre-trained Object Detection and Generative Adversarial Networks-Empowered Diverse Data Supplier: Performance Efficiency of ImageNet Model Transferability for Polyps Detection from GI Endoscopy Videos</b> <br/><br/><img src='/images/attention_maps.jpg'>"
+excerpt: "<b>Self-Supervised Learning for polyp detection</b> <br/><img src='/images/attention_maps.jpg'>"
 collection: portfolio
 ---
 <p>
-	<b>Purpose:</b> Deep learning-based applications are commonly used in the medical sphere, especially image classification; thus, deep learning has great potential to impact image-based specialties such as radiology. Deep learning may have the potential to address existing issues in sinus radiography. Because an imbalanced dataset causes problems in radiographic classification performance, generative adversarial network (GAN) usage is proposed to improve deep learning performance by generating part of the insufficient data. We aimed to evaluate the diagnostic performance of supervised learning using GANs for Waters’ view radiographs.
-</p><br/>
-<img src='/images/SSL_GAN_model_fin.jpg'><br/>
-<p>
-	<b>Approach:</b> Three specialists assessed images of Waters’ view radiographs and categorized them into four classes to prepare input datasets. Subsequently, the diagnosed images were resized to 1024 × 1024 pixels through image processing. Next, GANs were used to provide sufficient images for each class. GAN implementations were performed twice sequentially to prepare a large amount of valuable synthetic data. An estimation for the performance of supervised learning models with imbalanced and balanced datasets were demonstrated.
-</p><br/>
-<img src='/images/SSL_GAN_result.jpg'><br/>
-<p>
-	<b>Results:</b> Without synthetic data, the diagnostic performance of supervised learning models was insignificant because of an imbalanced dataset. After a radiologic technologist deleted awkward images from the generated images, we observed a diagnostic improvement to 82% accuracy with the first balanced dataset for each class and 91% accuracy with the second balanced dataset of generated images.
+	Deep learning has brought significant developments in image understanding tasks such as object detection, image classification, and image segmentation. But the success of image recognition largely relies on supervised learning that requires huge number of human-annotated labels. To avoid costly collection of labeled data and the domains where very few standard pre-trained models exist,  
+	<b>Self-Supervised learning (SSL)</b>  comes to our rescue. Self-supervised learning is a form of unsupervised learning that allows the network to learn rich visual features that help in performing downstream computer vision tasks such as image classification, object detection, and image segmentation.
 </p>
 <p>
-	<b>Conclusions:</b> We expect that as the number of datasets with generated images using GANs increases, the supervised learning performance for diagnosing maxillary sinusitis on Waters’ view radiographs will improve.
+	<img src='/images/SSL_GAN_model_fin.jpg'><br/>
+</p>
+<p>
+	<b>The brief description of our experiment:</b>
+</p>
+<p>
+	This work deals with the problem of polyp detection without labeled dataset in medical domain. SSL, GAN and Transfer-learning are quickly advancing fields. Our underlying insight is that leveraging those approaches together brings benefit. By the strategy of unifying these three approaches, we propose the integrated model and use it derive polyps detection with no annotated dataset.   
+</p>
+<p>
+	<img src='/images/SSL_GAN_result_fin.jpg'><br/>
+</p>
+<p>
+	In <b>conclusions</b>, Self-supervised methods have shown results at power with supervised learning by leveraging the huge amount of unlabeled data. The effectiveness of self-supervised
+	learning techniques has been found in complex downstream tasks such as image classification, object detection, image segmentation, etc. The unlabeled data can be utilized and present in abundance 
+	for building effective pre-trained models.
 </p>
