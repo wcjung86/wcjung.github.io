@@ -17,11 +17,11 @@ Education
 
 Work experience
 ======
-* Sep 2017- Aug 2018: Assistant Teacher
+* Sep 2017- Aug 2018: Assistant Teacher in Tashkent University of Information Technologies
   * Subject: Telecommunication Networks
   * Duties included: laboratory and practices with students
 
-* Aug 2020 - present: Research Scientist
+* Aug 2020 - present: Researcher in Konyang University Medical Center
   * Subject: Medical image classification, Object detection
   * Duties included: Image-processing, writing a paper 
   
