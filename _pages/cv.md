@@ -13,7 +13,7 @@ Education
 ======
 * B.Sc. in Telecommunication Engineering - Tashkent University of Information Technologies in Uzbekistan (2011-2015)
 * M.Sc. in Telecommunication Engineering - Tashkent University of Information Technologies in Uzbekistan (2015-2017)
-* M.Sc. in Software Engineering - Kumoh National Institute of Technology in South Korea, Gumi (2018-2020)
+* M.Eng. in Software Engineering - Kumoh National Institute of Technology in South Korea, Gumi (2018-2020)
 
 Work experience
 ======

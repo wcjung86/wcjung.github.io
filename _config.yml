@@ -75,7 +75,7 @@ analytics:
 author:
   name             : "Gayrat Tangriberganov"
   avatar           : "my_photo.jpg"
-  bio              : "Research Scientist"
+  bio              : "Researcher"
   location         : "South Korea, Daejeon"
   location_map     : "https://www.google.com/maps/place/Konyang+University+Hospital/@36.3067823,127.3422503,15z/data=!4m5!3m4!1s0x0:0xb1d86b8ff6c7a9f0!8m2!3d36.3067823!4d127.3422503"
   employer         : "Konyang Hospital"
@@ -110,7 +110,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  curriculumvitae  : "my_cv_1.pdf"
+  curriculumvitae  : "my_cv.pdf"
 
 
 # Reading Files
