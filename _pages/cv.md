@@ -31,9 +31,5 @@ Skills
   * Pytorch
   * OpenCV
 * Web development
-  * Django
-  * Postgresql
-* ETL development
-  * Pandas 
-  * Postgresql
+  * Nodjs
 
