@@ -81,7 +81,7 @@ author:
   employer         : "Konyang Hospital"
   employer_link    : "https://www.kyuh.ac.kr/hdc/"
   pubmed           : 
-  googlescholar    : 
+  facebook         : # 'tangriberganov.gayrat'
   email            : "ai.devveloper@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -89,7 +89,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : 'tangriberganov.gayrat'
+  googlescholar    : "https://scholar.google.com/citations?user=8wh0AjoAAAAJ&hl=en"
   foursquare       :
   github           : "Harry-KIT"
   google_plus      :
