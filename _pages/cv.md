@@ -31,5 +31,5 @@ Skills
   * Pytorch
   * OpenCV
 * Web development
-  * Nodjs
+  * Nodejs
 
